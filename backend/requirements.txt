@@ -1,0 +1,16 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==1.10.13
+PyPDF2==3.0.1
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# LangChain ecosystem - all aligned
+langchain==0.1.16
+langchain-core==0.1.48
+langchain-community==0.0.36
+langchain-openai==0.0.5
+
+# Environment & utils
+python-dotenv==1.0.1
+requests==2.31.0

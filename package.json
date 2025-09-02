@@ -1,0 +1,23 @@
+{
+    "name": "rag-mistral-app",
+    "version": "1.0.0",
+    "description": "Multi-PDF Chat Application with RAG",
+    "scripts": {
+        "dev:frontend": "cd frontend && npm start",
+        "dev:backend": "cd backend && python main.py",
+        "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+        "install:backend": "cd backend && pip install -r requirements.txt",
+        "install:all": "npm install && npm run install:backend"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    },
+    "keywords": [
+        "react",
+        "fastapi",
+        "rag",
+        "pdf-chat"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
